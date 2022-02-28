@@ -1,0 +1,42 @@
+ERROR - 2022-02-27 13:17:41 --> Error connecting to the database: Class 'SQLite3' not found
+ERROR - 2022-02-27 13:17:41 --> Error connecting to the database: Class 'SQLite3' not found
+CRITICAL - 2022-02-27 13:26:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Categorys->create()
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorys))
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/laravel/web/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/laravel/w...')
+#5 {main}
+ERROR - 2022-02-27 13:29:14 --> Unknown column '* WHERE `parent_id` =' in 'field list'
+CRITICAL - 2022-02-27 13:29:14 --> Unknown column '* WHERE `parent_id` =' in 'field list'
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `* WHERE...', 0)
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `* WHERE...')
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `* WHERE...')
+#3 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `* WHERE...', Array, false)
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/laravel/web/codeigniter/app/Controllers/Categorys.php(26): CodeIgniter\BaseModel->findAll()
+#7 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Categorys->create()
+#8 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorys))
+#9 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/laravel/web/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/laravel/w...')
+#12 {main}
+CRITICAL - 2022-02-27 14:14:01 --> Too few arguments to function App\Controllers\Categorys::getCatWithId(), 0 passed in /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Categorys->getCatWithId()
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorys))
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/laravel/web/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/laravel/w...')
+#5 {main}
+CRITICAL - 2022-02-27 15:01:52 --> syntax error, unexpected ';', expecting ']'
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/laravel/w...')
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/laravel/web/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/laravel/w...')
+#9 {main}

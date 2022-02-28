@@ -1,0 +1,268 @@
+ERROR - 2022-02-24 14:42:16 --> Undefined variable: DBDriver
+CRITICAL - 2022-02-24 14:42:16 --> Undefined variable: DBDriver
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Generators/Views/migration.tpl.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/laravel/w...', 16, Array)
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/laravel/w...')
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('CodeIgniter\\Com...', Array, true)
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php(239): view('CodeIgniter\\Com...', Array, Array)
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php(257): CodeIgniter\Commands\Generators\SessionMigrationGenerator->renderTemplate(Array)
+#6 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Generators/SessionMigrationGenerator.php(100): CodeIgniter\Commands\Generators\SessionMigrationGenerator->parseTemplate('App\\Database\\Mi...', Array, Array, Array)
+#7 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php(267): CodeIgniter\Commands\Generators\SessionMigrationGenerator->prepare('App\\Database\\Mi...')
+#8 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php(144): CodeIgniter\Commands\Generators\SessionMigrationGenerator->buildContent('App\\Database\\Mi...')
+#9 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Generators/SessionMigrationGenerator.php(84): CodeIgniter\Commands\Generators\SessionMigrationGenerator->execute(Array)
+#10 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Generators\SessionMigrationGenerator->run(Array)
+#11 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(70): CodeIgniter\CLI\Commands->run('session:migrati...', Array)
+#12 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#13 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'session:migrati...')
+#14 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#15 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#17 /home/laravel/web/codeigniter/spark(63): CodeIgniter\CLI\Console->run()
+#18 {main}
+ERROR - 2022-02-24 14:44:23 --> Undefined variable: DBDriver
+CRITICAL - 2022-02-24 14:44:23 --> Undefined variable: DBDriver
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Generators/Views/migration.tpl.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/laravel/w...', 16, Array)
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/laravel/w...')
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('CodeIgniter\\Com...', Array, true)
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php(239): view('CodeIgniter\\Com...', Array, Array)
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php(257): CodeIgniter\Commands\Generators\SessionMigrationGenerator->renderTemplate(Array)
+#6 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Generators/SessionMigrationGenerator.php(100): CodeIgniter\Commands\Generators\SessionMigrationGenerator->parseTemplate('App\\Database\\Mi...', Array, Array, Array)
+#7 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php(267): CodeIgniter\Commands\Generators\SessionMigrationGenerator->prepare('App\\Database\\Mi...')
+#8 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php(144): CodeIgniter\Commands\Generators\SessionMigrationGenerator->buildContent('App\\Database\\Mi...')
+#9 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Generators/SessionMigrationGenerator.php(84): CodeIgniter\Commands\Generators\SessionMigrationGenerator->execute(Array)
+#10 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Generators\SessionMigrationGenerator->run(Array)
+#11 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(70): CodeIgniter\CLI\Commands->run('session:migrati...', Array)
+#12 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#13 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'session:migrati...')
+#14 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#15 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#17 /home/laravel/web/codeigniter/spark(63): CodeIgniter\CLI\Console->run()
+#18 {main}
+ERROR - 2022-02-24 14:44:28 --> Undefined variable: DBDriver
+CRITICAL - 2022-02-24 14:44:28 --> Undefined variable: DBDriver
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Generators/Views/migration.tpl.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/laravel/w...', 16, Array)
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/laravel/w...')
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('CodeIgniter\\Com...', Array, true)
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php(239): view('CodeIgniter\\Com...', Array, Array)
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php(257): CodeIgniter\Commands\Generators\SessionMigrationGenerator->renderTemplate(Array)
+#6 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Generators/SessionMigrationGenerator.php(100): CodeIgniter\Commands\Generators\SessionMigrationGenerator->parseTemplate('App\\Database\\Mi...', Array, Array, Array)
+#7 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php(267): CodeIgniter\Commands\Generators\SessionMigrationGenerator->prepare('App\\Database\\Mi...')
+#8 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php(144): CodeIgniter\Commands\Generators\SessionMigrationGenerator->buildContent('App\\Database\\Mi...')
+#9 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Generators/SessionMigrationGenerator.php(84): CodeIgniter\Commands\Generators\SessionMigrationGenerator->execute(Array)
+#10 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Generators\SessionMigrationGenerator->run(Array)
+#11 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(70): CodeIgniter\CLI\Commands->run('session:migrati...', Array)
+#12 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#13 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'session:migrati...')
+#14 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#15 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#17 /home/laravel/web/codeigniter/spark(63): CodeIgniter\CLI\Console->run()
+#18 {main}
+ERROR - 2022-02-24 14:45:54 --> Undefined variable: DBDriver
+CRITICAL - 2022-02-24 14:45:54 --> Undefined variable: DBDriver
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Generators/Views/migration.tpl.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/laravel/w...', 16, Array)
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/laravel/w...')
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('CodeIgniter\\Com...', Array, true)
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php(239): view('CodeIgniter\\Com...', Array, Array)
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php(257): CodeIgniter\Commands\Generators\SessionMigrationGenerator->renderTemplate(Array)
+#6 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Generators/SessionMigrationGenerator.php(100): CodeIgniter\Commands\Generators\SessionMigrationGenerator->parseTemplate('App\\Database\\Mi...', Array, Array, Array)
+#7 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php(267): CodeIgniter\Commands\Generators\SessionMigrationGenerator->prepare('App\\Database\\Mi...')
+#8 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php(144): CodeIgniter\Commands\Generators\SessionMigrationGenerator->buildContent('App\\Database\\Mi...')
+#9 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Generators/SessionMigrationGenerator.php(84): CodeIgniter\Commands\Generators\SessionMigrationGenerator->execute(Array)
+#10 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Generators\SessionMigrationGenerator->run(Array)
+#11 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(70): CodeIgniter\CLI\Commands->run('session:migrati...', Array)
+#12 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#13 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'session:migrati...')
+#14 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#15 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#17 /home/laravel/web/codeigniter/spark(63): CodeIgniter\CLI\Console->run()
+#18 {main}
+ERROR - 2022-02-24 14:47:25 --> Error connecting to the database: No such file or directory
+ERROR - 2022-02-24 14:47:46 --> Error connecting to the database: No such file or directory
+ERROR - 2022-02-24 14:47:46 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-02-24 14:48:32 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Dat...', Array)
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Common.php(312): CodeIgniter\Database\Config::connect('default', true)
+#3 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(149): db_connect(NULL)
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Config/Services.php(376): CodeIgniter\Database\MigrationRunner->__construct(NULL, NULL)
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), NULL, false)
+#6 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#7 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Config/Services.php(371): CodeIgniter\Config\BaseService::getSharedInstance('migrations', NULL, NULL)
+#8 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::migrations()
+#9 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Database/MigrateRollback.php(81): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#10 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#11 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/BaseCommand.php(112): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#12 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Database/MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#13 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#14 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(70): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#15 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#16 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate:refresh')
+#17 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#18 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#19 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#20 /home/laravel/web/codeigniter/spark(63): CodeIgniter\CLI\Console->run()
+#21 {main}
+ERROR - 2022-02-24 14:48:43 --> Error connecting to the database: No such file or directory
+ERROR - 2022-02-24 14:48:43 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-02-24 14:48:49 --> Class 'CodeIgniter\Database\MySQL\Connection' not found
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQL', 'CodeIgniter\\Dat...', Array)
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Common.php(312): CodeIgniter\Database\Config::connect('default', true)
+#3 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(149): db_connect(NULL)
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Config/Services.php(376): CodeIgniter\Database\MigrationRunner->__construct(NULL, NULL)
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), NULL, false)
+#6 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#7 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Config/Services.php(371): CodeIgniter\Config\BaseService::getSharedInstance('migrations', NULL, NULL)
+#8 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::migrations()
+#9 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Database/MigrateRollback.php(81): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#10 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#11 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/BaseCommand.php(112): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#12 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Database/MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#13 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#14 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(70): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#15 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#16 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate:refresh')
+#17 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#18 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#19 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#20 /home/laravel/web/codeigniter/spark(63): CodeIgniter\CLI\Console->run()
+#21 {main}
+CRITICAL - 2022-02-24 14:50:01 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Dat...', Array)
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Common.php(312): CodeIgniter\Database\Config::connect('default', true)
+#3 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(149): db_connect(NULL)
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Config/Services.php(376): CodeIgniter\Database\MigrationRunner->__construct(NULL, NULL)
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), NULL, false)
+#6 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#7 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Config/Services.php(371): CodeIgniter\Config\BaseService::getSharedInstance('migrations', NULL, NULL)
+#8 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::migrations()
+#9 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Database/MigrateRollback.php(81): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#10 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#11 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/BaseCommand.php(112): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#12 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Database/MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#13 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#14 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(70): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#15 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#16 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate:refresh')
+#17 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#18 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#19 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#20 /home/laravel/web/codeigniter/spark(63): CodeIgniter\CLI\Console->run()
+#21 {main}
+ERROR - 2022-02-24 14:50:38 --> Error connecting to the database: No such file or directory
+ERROR - 2022-02-24 14:50:38 --> Error connecting to the database: No such file or directory
+ERROR - 2022-02-24 14:52:48 --> Error connecting to the database: No such file or directory
+ERROR - 2022-02-24 14:52:48 --> Error connecting to the database: No such file or directory
+ERROR - 2022-02-24 14:53:28 --> Error connecting to the database: Connection timed out
+ERROR - 2022-02-24 14:53:38 --> Error connecting to the database: Connection timed out
+ERROR - 2022-02-24 15:17:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':name:, :parent_id:, :model_name:)' at line 1
+ERROR - 2022-02-24 15:17:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 3, 4, 5, 6) VALUES (:0:, :1:, :3:, :4:, :5:, :6:)' at line 1
+ERROR - 2022-02-24 15:18:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':name:, :parent_id:, :model_name:)' at line 1
+ERROR - 2022-02-24 15:18:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 3, 4, 5, 6) VALUES (:0:, :1:, :3:, :4:, :5:, :6:)' at line 1
+ERROR - 2022-02-24 15:20:38 --> Column 'parent_id' cannot be null
+ERROR - 2022-02-24 15:20:38 --> Column 'parent_id' cannot be null
+ERROR - 2022-02-24 15:22:00 --> Column 'parent_id' cannot be null
+ERROR - 2022-02-24 15:23:46 --> Column 'parent_id' cannot be null
+ERROR - 2022-02-24 15:24:29 --> Column 'parent_id' cannot be null
+ERROR - 2022-02-24 15:24:51 --> Column 'parent_id' cannot be null
+ERROR - 2022-02-24 15:27:58 --> Column 'parent_id' cannot be null
+CRITICAL - 2022-02-24 17:47:06 --> Invalid file: category.index
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('category.index')
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('category.index', Array, true)
+#2 /home/laravel/web/codeigniter/app/Controllers/Categorys.php(15): view('category.index')
+#3 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Categorys->index()
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorys))
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/laravel/web/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/laravel/w...')
+#8 {main}
+CRITICAL - 2022-02-24 17:47:08 --> Invalid file: category.index
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('category.index')
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('category.index', Array, true)
+#2 /home/laravel/web/codeigniter/app/Controllers/Categorys.php(15): view('category.index')
+#3 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Categorys->index()
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorys))
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/laravel/web/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/laravel/w...')
+#8 {main}
+CRITICAL - 2022-02-24 18:09:00 --> Call to a member function where() on array
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('category_index', Array, true)
+#3 /home/laravel/web/codeigniter/app/Controllers/Categorys.php(14): view('category_index', Array)
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Categorys->index()
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorys))
+#6 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/laravel/web/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/laravel/w...')
+#9 {main}
+CRITICAL - 2022-02-24 18:09:02 --> Call to a member function where() on array
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('category_index', Array, true)
+#3 /home/laravel/web/codeigniter/app/Controllers/Categorys.php(14): view('category_index', Array)
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Categorys->index()
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorys))
+#6 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/laravel/web/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/laravel/w...')
+#9 {main}
+CRITICAL - 2022-02-24 18:09:03 --> Call to a member function where() on array
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('category_index', Array, true)
+#3 /home/laravel/web/codeigniter/app/Controllers/Categorys.php(14): view('category_index', Array)
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Categorys->index()
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorys))
+#6 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/laravel/web/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/laravel/w...')
+#9 {main}
+CRITICAL - 2022-02-24 18:12:03 --> Object of class App\Models\Category could not be converted to string
+#0 /home/laravel/web/codeigniter/app/Views/category_index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/laravel/w...', 33, Array)
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/laravel/w...')
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('category_index', Array, true)
+#4 /home/laravel/web/codeigniter/app/Controllers/Categorys.php(14): view('category_index', Array)
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Categorys->index()
+#6 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorys))
+#7 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/laravel/web/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/laravel/w...')
+#10 {main}
+CRITICAL - 2022-02-24 18:12:04 --> Object of class App\Models\Category could not be converted to string
+#0 /home/laravel/web/codeigniter/app/Views/category_index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/laravel/w...', 33, Array)
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/laravel/w...')
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('category_index', Array, true)
+#4 /home/laravel/web/codeigniter/app/Controllers/Categorys.php(14): view('category_index', Array)
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Categorys->index()
+#6 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorys))
+#7 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/laravel/web/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/laravel/w...')
+#10 {main}
+ERROR - 2022-02-24 18:12:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 IS NULL
+ LIMIT 1' at line 3
+CRITICAL - 2022-02-24 18:12:22 --> Call to a member function getFirstRow() on bool
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home/laravel/web/codeigniter/app/Views/category_index.php(34): CodeIgniter\BaseModel->first()
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/laravel/w...')
+#3 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('category_index', Array, true)
+#5 /home/laravel/web/codeigniter/app/Controllers/Categorys.php(14): view('category_index', Array)
+#6 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Categorys->index()
+#7 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorys))
+#8 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/laravel/web/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/laravel/w...')
+#11 {main}

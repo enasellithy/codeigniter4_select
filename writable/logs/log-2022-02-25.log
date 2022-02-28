@@ -1,0 +1,15 @@
+CRITICAL - 2022-02-25 11:05:16 --> Attempt to assign property 'category_name' of non-object
+#0 /home/laravel/web/codeigniter/app/Controllers/Categorys.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', '/home/laravel/w...', 16, Array)
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Categorys->index()
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorys))
+#3 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/laravel/web/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/laravel/w...')
+#6 {main}
+CRITICAL - 2022-02-25 11:08:36 --> Call to a member function find() on array
+#0 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Categorys->index()
+#1 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorys))
+#2 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/laravel/web/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/laravel/web/codeigniter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/laravel/w...')
+#5 {main}

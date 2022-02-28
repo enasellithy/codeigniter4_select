@@ -25,8 +25,35 @@ to your `app` folder. The affected files can be copied or merged from
 
 ## Setup
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+git clone https://github.com/enasellithy/codeigniter4_select
+cd codeigniter4_select
+edit some varaible Database.php locate in app - config
+- change 
+public $default = [
+        'DSN'      => '',
+        'hostname' => '127.0.0.1',
+        'username' => 'root', // put database username
+        'password' => '',  // put database password
+        'database' => 'codeigniter', // put database name
+        'DBDriver' => 'MySQLi',
+        'DBPrefix' => '',
+        'pConnect' => false,
+        'DBDebug'  => (ENVIRONMENT !== 'development'),
+        'charset'  => 'utf8',
+        'DBCollat' => 'utf8_general_ci',
+        'swapPre'  => '',
+        'encrypt'  => false,
+        'compress' => false,
+        'strictOn' => false,
+        'failover' => [],
+        'port'     => 3306,
+    ];
+   
+  - composer update 
+  - php spark migrate
+  - php spark db:seed CategorySeeder
+  
+  # Notice this app with work with php 7.3 version
 
 ## Important Change with index.php
 
