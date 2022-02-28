@@ -25,9 +25,9 @@ to your `app` folder. The affected files can be copied or merged from
 
 ## Setup
 
-git clone https://github.com/enasellithy/codeigniter4_select
-cd codeigniter4_select
-edit some varaible Database.php locate in app - config
+- git clone https://github.com/enasellithy/codeigniter4_select
+- cd codeigniter4_select
+- edit some varaible Database.php locate in app - config
 - change 
 public $default = [
         'DSN'      => '',
